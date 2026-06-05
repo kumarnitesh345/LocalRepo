@@ -14,15 +14,15 @@ public class Hook {
 
     public void setup() {
 
-       /* ChromeOptions options = new ChromeOptions();
+        ChromeOptions options = new ChromeOptions();
 
         options.addArguments("--headless=new");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--disable-gpu");
 
-        driver = new ChromeDriver(options);*/
-    	driver=new EdgeDriver();
+        driver = new ChromeDriver(options);
+    	//driver=new EdgeDriver();
 
         driver.manage().timeouts()
               .implicitlyWait(Duration.ofSeconds(10));
