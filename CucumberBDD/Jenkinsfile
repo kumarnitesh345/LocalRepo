@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/kumarnitesh345/Testing_Wipro.git'
+                    url: 'https://github.com/kumarnitesh345/LocalRepo.git'
             }
         }
 
